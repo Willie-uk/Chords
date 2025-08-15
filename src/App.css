@@ -43,3 +43,12 @@
     max-width: 650px;
   }
 }
+
+.animate-spin-loader {
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
