@@ -3,7 +3,7 @@ import KWM1 from "../assets/naming-1.png";
 import KWM2 from "../assets/naming-2.png";
 import KWM3 from "../assets/naming-3.png";
 
-function Module1() {
+function Intro() {
   return (
     <div className="container my-5">
       <div className="row">
@@ -98,4 +98,4 @@ function Module1() {
   );
 }
 
-export default Module1;
+export default Intro;

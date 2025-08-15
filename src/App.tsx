@@ -1,10 +1,10 @@
-import Module1 from "./components/module1";
+import Intro from "./components/Intro";
 import Module2 from "./components/Module2";
 
 function App() {
   return (
     <>
-      <Module1 />
+      <Intro />
       <Module2 />
     </>
   );
