@@ -17,6 +17,12 @@
   font-weight: 900;
   text-align: center;
 }
+.module-subtitle {
+  font-size: 30px;
+  color: #696969;
+  font-weight: 600;
+  text-align: center;
+}
 .img-size {
   width: 350px;
   object-fit: cover;

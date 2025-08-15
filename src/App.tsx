@@ -3,6 +3,9 @@ import Intro from "./components/Intro";
 import Module2 from "./components/Module2";
 import { Loader } from "lucide-react";
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Module3 from "./components/Module3";
+import Home from "./utils/Home";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -23,10 +26,14 @@ function App() {
   }
 
   return (
-    <>
-      <Intro />
-      <Module2 />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/module1" element={<Intro />} />
+        <Route path="/module2" element={<Module2 />} />
+        <Route path="/module3" element={<Module3 />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
