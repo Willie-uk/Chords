@@ -15,6 +15,9 @@ function Hero() {
   const handleModule3ii = () => {
     navigate("/module3/ii");
   };
+  const handleModule3iii = () => {
+    navigate("/module3/iii");
+  };
 
   return (
     <div className="px-4 py-1 my-5 text-center">
@@ -28,7 +31,8 @@ function Hero() {
         </p>
       </div>
       <div className="my-5">
-        <h1>Content</h1>
+        <h1>Contents :</h1>
+        <h3 className="text-start ms-4 text-secondary">Beginners Section</h3>
         <div className="d-flex flex-column align-items-start px-4">
           <p>
             <span className="fw-bold">Module 1: </span> Intro, Naming, Semitones
@@ -45,6 +49,17 @@ function Hero() {
           <p>
             <span className="fw-bold">Module 3(ii): </span> Chord Inversion:
             Root Position, First Inversion, Second Inversion & Third Inversion.
+          </p>
+          <p>
+            <span className="fw-bold">Module 3(iii): </span> Left Hand,
+            Arpeggios, Octive Position.
+          </p>
+        </div>
+        <h3 className="text-start ms-4 text-secondary">Intermediate</h3>
+        <div className="d-flex flex-column align-items-start px-4">
+          <p>
+            <span className="fw-bold">Module 1: </span> Diminished, Suspended,
+            Augmented.
           </p>
         </div>
       </div>
@@ -63,6 +78,9 @@ function Hero() {
         </div>
         <div onClick={handleModule3ii} className="btn btn-dark btn-lg px-4">
           Module 3(ii)
+        </div>
+        <div onClick={handleModule3iii} className="btn btn-dark btn-lg px-4">
+          Module 3(iii)
         </div>
       </div>
     </div>

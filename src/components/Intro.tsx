@@ -26,7 +26,7 @@ function Intro() {
           </div>
         </div>
         <div className="row mt-5">
-          <h3>Introduction</h3>
+          <h3 id="intro">Introduction</h3>
           <p>
             <span className="fw-bold">Piano</span> is a musical instrument that
             produces music sound in acoustic (natural way) while a{" "}
@@ -43,7 +43,7 @@ function Intro() {
         <div className="row mt-2">
           <h3>Naming</h3>
           <p>
-            The 12 set of keys/notes are called an{" "}
+            The 12 set of keys/notes is called an{" "}
             <span className="fw-bold">Octive</span>. Digital keyboards vary in
             number of keys, some have 48, 61, 76, 88.
           </p>

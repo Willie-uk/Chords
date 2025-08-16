@@ -14,25 +14,38 @@ const Footer: React.FC = () => {
               style={{ width: "100px", height: "100px" }}
             />
             <div
-              className="d-flex"
+              className="d-flex mt-3 mt-sm-0"
               style={{ flexDirection: "column", gap: "10px" }}
             >
-              <Link style={{ textDecoration: "none", color: "gray" }} to="/">
+              <Link
+                style={{ textDecoration: "none", color: "gray" }}
+                to="/module1"
+              >
                 Introduction
               </Link>
-              <Link style={{ textDecoration: "none", color: "gray" }} to="/">
+              <Link
+                style={{ textDecoration: "none", color: "gray" }}
+                to="/module2"
+              >
                 Scales
               </Link>
-              <Link style={{ textDecoration: "none", color: "gray" }} to="/">
+              <Link
+                style={{ textDecoration: "none", color: "gray" }}
+                to="/module3"
+              >
                 Chords
               </Link>
-              <Link style={{ textDecoration: "none", color: "gray" }} to="/">
-                Progressions
+              <Link
+                style={{ textDecoration: "none", color: "gray" }}
+                to="/module3/iii"
+              >
+                Octive Position
               </Link>
             </div>
             <Link
               style={{ textDecoration: "none", color: "gray" }}
               to="sampleSongs"
+              className="mt-3 mt-sm-0"
             >
               Sample Songs
             </Link>
