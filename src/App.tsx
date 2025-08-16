@@ -6,6 +6,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Module3 from "./components/Module3";
 import Home from "./utils/Home";
+import Module3ii from "./components/Module3ii";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -32,6 +33,7 @@ function App() {
         <Route path="/module1" element={<Intro />} />
         <Route path="/module2" element={<Module2 />} />
         <Route path="/module3" element={<Module3 />} />
+        <Route path="/module3/ii" element={<Module3ii />} />
       </Routes>
     </BrowserRouter>
   );

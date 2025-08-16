@@ -1,5 +1,6 @@
 import React from "react";
 import xvg from "../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
   return (
@@ -16,25 +17,25 @@ const Footer: React.FC = () => {
               className="d-flex"
               style={{ flexDirection: "column", gap: "10px" }}
             >
-              <a style={{ textDecoration: "none", color: "gray" }} href="#">
+              <Link style={{ textDecoration: "none", color: "gray" }} to="/">
                 Introduction
-              </a>
-              <a style={{ textDecoration: "none", color: "gray" }} href="#">
+              </Link>
+              <Link style={{ textDecoration: "none", color: "gray" }} to="/">
                 Scales
-              </a>
-              <a style={{ textDecoration: "none", color: "gray" }} href="#">
+              </Link>
+              <Link style={{ textDecoration: "none", color: "gray" }} to="/">
                 Chords
-              </a>
-              <a style={{ textDecoration: "none", color: "gray" }} href="#">
+              </Link>
+              <Link style={{ textDecoration: "none", color: "gray" }} to="/">
                 Progressions
-              </a>
+              </Link>
             </div>
-            <a
+            <Link
               style={{ textDecoration: "none", color: "gray" }}
-              href="paa/medic"
+              to="sampleSongs"
             >
               Sample Songs
-            </a>
+            </Link>
           </div>
           <hr className="mx-auto" style={{ width: "60%", opacity: ".1" }} />
           <div className="d-flex flex-column flex-sm-row text-center justify-content-evenly mt-3">

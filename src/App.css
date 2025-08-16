@@ -35,6 +35,30 @@
   max-width: 350px; /* default for small screens */
   object-fit: cover;
 }
+.circleCI1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #963200;
+}
+.circleCI2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ffbb00;
+}
+.circleCI3 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #050096;
+}
+.circleCI4 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #009621;
+}
 
 /* Medium screens and up */
 @media (min-width: 768px) {

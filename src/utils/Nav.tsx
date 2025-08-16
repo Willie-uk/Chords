@@ -23,6 +23,9 @@ function Navbar() {
   const handleModule3 = () => {
     navigate("/module3");
   };
+  const handleModule3ii = () => {
+    navigate("/module3/ii");
+  };
 
   return (
     <div
@@ -110,11 +113,21 @@ function Navbar() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1.1 }}
-                className="btn btn-dark fw-bold"
+                className="btn btn-dark fw-bold mb-3"
                 onClick={handleModule3}
                 style={{ borderRadius: "15px" }}
               >
                 Module 3(i)
+              </motion.button>
+              <motion.button
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1.3 }}
+                className="btn btn-dark fw-bold mb-3"
+                onClick={handleModule3ii}
+                style={{ borderRadius: "15px" }}
+              >
+                Module 3(ii)
               </motion.button>
             </div>
           </motion.div>
