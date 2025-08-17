@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
             </div>
             <Link
               style={{ textDecoration: "none", color: "gray" }}
-              to="sampleSongs"
+              to="/sampleSongs"
               className="mt-3 mt-sm-0"
             >
               Sample Songs

@@ -30,7 +30,7 @@ function Hero() {
           the world of worship music and enhancing your piano journey.
         </p>
       </div>
-      <div className="my-5">
+      <div className="my-5 container">
         <h1>Contents :</h1>
         <h3 className="text-start ms-4 text-secondary">Beginners Section</h3>
         <div className="d-flex flex-column align-items-start px-4">
@@ -55,7 +55,7 @@ function Hero() {
             Arpeggios, Octive Position.
           </p>
         </div>
-        <h3 className="text-start ms-4 text-secondary">Intermediate</h3>
+        <h3 className="text-start ms-4 text-secondary">Intermediate Section</h3>
         <div className="d-flex flex-column align-items-start px-4">
           <p>
             <span className="fw-bold">Module 1: </span> Diminished, Suspended,

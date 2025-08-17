@@ -8,6 +8,7 @@ import Module3 from "./components/Module3";
 import Home from "./utils/Home";
 import Module3ii from "./components/Module3ii";
 import Module3iii from "./components/Module3iii";
+import SampleSongs from "./components/SampleSongs";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -36,6 +37,7 @@ function App() {
         <Route path="/module3" element={<Module3 />} />
         <Route path="/module3/ii" element={<Module3ii />} />
         <Route path="/module3/iii" element={<Module3iii />} />
+        <Route path="/sampleSongs" element={<SampleSongs />} />
       </Routes>
     </BrowserRouter>
   );
