@@ -9,6 +9,9 @@ import Home from "./utils/Home";
 import Module3ii from "./components/Module3ii";
 import Module3iii from "./components/Module3iii";
 import SampleSongs from "./components/SampleSongs";
+import Module4 from "./components/Module4";
+import StringsViolin from "./components/StringsViolin";
+import Settings from "./components/Settings";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -38,6 +41,10 @@ function App() {
         <Route path="/module3/ii" element={<Module3ii />} />
         <Route path="/module3/iii" element={<Module3iii />} />
         <Route path="/sampleSongs" element={<SampleSongs />} />
+        <Route path="/module4" element={<Module4 />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/strings-violin" element={<StringsViolin />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );

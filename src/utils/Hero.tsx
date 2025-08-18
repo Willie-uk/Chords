@@ -18,6 +18,15 @@ function Hero() {
   const handleModule3iii = () => {
     navigate("/module3/iii");
   };
+  const handleModule4 = () => {
+    navigate("/module4");
+  };
+  const StringsViolin = () => {
+    navigate("/strings-violin");
+  };
+  const settings = () => {
+    navigate("/settings");
+  };
 
   return (
     <div className="px-4 py-1 my-5 text-center">
@@ -58,29 +67,87 @@ function Hero() {
         <h3 className="text-start ms-4 text-secondary">Intermediate Section</h3>
         <div className="d-flex flex-column align-items-start px-4">
           <p>
-            <span className="fw-bold">Module 1: </span> Diminished, Suspended,
-            Augmented.
+            <span className="fw-bold">Module 4: </span>Advanced Chords; F#M7
+            (Dom 7), F#Dim7, F#Sus2 & F#Sus4, F#Sus3 & F#3Major, F# 6 minor
+            Scale and F# Aug.
+          </p>
+        </div>
+        <h3 className="text-start ms-4 text-secondary">Settings Section</h3>
+        <div className="d-flex flex-column align-items-start px-4">
+          <p>
+            <span className="fw-bold">Settings:</span> E series, S670, SX600,
+            S950 and SX900.
+          </p>
+        </div>
+        <h3 className="text-start ms-4 text-secondary">
+          Voices Section (Practicals)
+        </h3>
+        <div className="d-flex flex-column align-items-start px-4">
+          <p>
+            <span className="fw-bold">Voices: </span>Strings, Bass, Solo, Dx,
+            Flute and Piano (running).
+          </p>
+        </div>
+        <h3 className="text-start ms-4 text-secondary">
+          Strings Intergration to violin
+        </h3>
+        <div className="d-flex flex-column align-items-start px-4">
+          <p>
+            <span className="fw-bold">Notes: </span> Notes For Normal worship
           </p>
         </div>
       </div>
-      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <div
-          onClick={handleModule1}
-          className="btn btn-outline-secondary btn-lg px-4 gap-3"
-        >
-          Module 1
-        </div>
-        <div onClick={handleModule2} className="btn btn-dark btn-lg px-4">
-          Module 2
-        </div>
-        <div onClick={handleModule3} className="btn btn-dark btn-lg px-4">
-          Module 3(i)
-        </div>
-        <div onClick={handleModule3ii} className="btn btn-dark btn-lg px-4">
-          Module 3(ii)
-        </div>
-        <div onClick={handleModule3iii} className="btn btn-dark btn-lg px-4">
-          Module 3(iii)
+      <div className="container">
+        <div className="row g-3 justify-content-center">
+          <div className="col-sm-3">
+            <div
+              onClick={handleModule1}
+              className="btn btn-outline-secondary btn-lg w-100"
+            >
+              Module 1
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div onClick={handleModule2} className="btn btn-dark btn-lg w-100">
+              Module 2
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div onClick={handleModule3} className="btn btn-dark btn-lg w-100">
+              Module 3(i)
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div
+              onClick={handleModule3ii}
+              className="btn btn-dark btn-lg w-100"
+            >
+              Module 3(ii)
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div
+              onClick={handleModule3iii}
+              className="btn btn-dark btn-lg w-100"
+            >
+              Module 3(iii)
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div onClick={handleModule4} className="btn btn-dark btn-lg w-100">
+              Module 4
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div onClick={settings} className="btn btn-dark btn-lg w-100">
+              Settings
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div onClick={StringsViolin} className="btn btn-dark btn-lg w-100">
+              Strings-Violin
+            </div>
+          </div>
         </div>
       </div>
     </div>

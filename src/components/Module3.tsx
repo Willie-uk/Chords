@@ -9,6 +9,8 @@ import KWM12 from "../assets/chord-4.png";
 import KWM13 from "../assets/chord-5.png";
 import KWM14 from "../assets/chord-6.png";
 import KWM15 from "../assets/chord-7.png";
+import { ArrowBigLeft, ArrowBigRight } from "lucide-react";
+
 function Module3() {
   return (
     <>
@@ -115,6 +117,68 @@ function Module3() {
             </div>
           </p>
         </div>
+        <div className="row mt-5">
+          <h3 className="fw-bold">Chord Table</h3>
+          <p>
+            Major chords are abbreviated with a capital{" "}
+            <span className="fw-bold">(M)</span> while the minor chords are
+            abbreviated with small <span className="fw-bold">(m)</span>
+          </p>
+          <p className="text-center">Chord Formular</p>
+          <hr className="w-75 mx-auto" />
+          <h3 className="text-center fw-bold">
+            (M) <ArrowBigRight /> (m) = + 3rd Note
+          </h3>
+          <h3 className="text-center fw-bold">
+            (M) <ArrowBigLeft /> (m) = - 3rd Note
+          </h3>
+          <hr className="w-75 mx-auto" />
+          <div className="container mt-4">
+            <h3 className="mb-3">Chord Table</h3>
+            <table className="table table-striped table-bordered text-center">
+              <thead className="table-dark">
+                <tr>
+                  <th scope="col">Chord</th>
+                  <th scope="col">Major(M)</th>
+                  <th scope="col">minor(m)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>F#-A#-C#</td>
+                  <td>?</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>?</td>
+                  <td>G#-B-D#</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>?</td>
+                  <td>A#-C#-F</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>B-D#-F#</td>
+                  <td>?</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>C#-F-G#</td>
+                  <td>Row 5 Data 3</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>?</td>
+                  <td>D#-F#-A#</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <p>Complete the above table.</p>
         <p className="text-center text-secondary text-i my-5 fs-5">
           End of Module 3(i).
         </p>

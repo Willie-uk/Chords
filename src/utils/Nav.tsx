@@ -29,6 +29,9 @@ function Navbar() {
   const handleModule3iii = () => {
     navigate("/module3/iii");
   };
+  const handleModule4 = () => {
+    navigate("/module4");
+  };
 
   return (
     <div
@@ -141,6 +144,16 @@ function Navbar() {
                 style={{ borderRadius: "15px" }}
               >
                 Module 3(iii)
+              </motion.button>
+              <motion.button
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1.3 }}
+                className="btn btn-dark fw-bold mb-3"
+                onClick={handleModule4}
+                style={{ borderRadius: "15px" }}
+              >
+                Module 4
               </motion.button>
             </div>
           </motion.div>
