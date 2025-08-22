@@ -26,7 +26,7 @@ function Module3iii() {
         <div className="row">
           <h3 className="main-title">Piano Lessons</h3>
           <h1 className="module-title">Module 3</h1>
-          <h5 className="module-subtitle">Section (ii)</h5>
+          <h5 className="module-subtitle">Section (iii)</h5>
           <div className="d-flex justify-content-center mt-4">
             <h4 className="fw-bold">Content: </h4>
             <div className="d-flex flex-column ms-3">

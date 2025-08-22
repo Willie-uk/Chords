@@ -27,16 +27,20 @@ function Hero() {
   const settings = () => {
     navigate("/settings");
   };
+  const beats = () => {
+    navigate("/beats");
+  };
 
   return (
     <div className="px-4 py-1 my-5 text-center">
       <h1 className="display-5 fw-bold">Worship Chords</h1>
       <div className="col-lg-6 mx-auto">
         <p className="lead mb-4">
-          This is a platform for learning and mastering worship chords, scales,
-          and progressions. Whether you're a beginner or an advanced player, we
-          have resources to help you improve your skills. Join us in exploring
-          the world of worship music and enhancing your piano journey.
+          This is a platform for learning and mastering worship chords, scales
+          and progressions, beats and settings used by the MINISTRY OF
+          REPENTANCE AND HOLINESS. Whether you're a beginner or an advanced
+          player, we have resources to help you improve your skills. Join us in
+          exploring the world of worship music and enhancing your piano journey.
         </p>
       </div>
       <div className="my-5 container">
@@ -77,6 +81,13 @@ function Hero() {
           <p>
             <span className="fw-bold">Settings:</span> E series, S670, SX600,
             S950 and SX900.
+          </p>
+        </div>
+        <h3 className="text-start ms-4 text-secondary">Beats Section</h3>
+        <div className="d-flex flex-column align-items-start px-4">
+          <p>
+            <span className="fw-bold">Time Signature:</span> 2/4, 3/4, 4/4 and
+            6/8.
           </p>
         </div>
         <h3 className="text-start ms-4 text-secondary">
@@ -136,6 +147,11 @@ function Hero() {
           <div className="col-sm-3">
             <div onClick={handleModule4} className="btn btn-dark btn-lg w-100">
               Module 4
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div onClick={beats} className="btn btn-dark btn-lg w-100">
+              Beats
             </div>
           </div>
           <div className="col-sm-3">

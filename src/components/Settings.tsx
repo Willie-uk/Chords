@@ -199,8 +199,15 @@ function Settings() {
             <p className="text-center">
               <span className="fw-bold">Tempo Lock: </span> On
             </p>
+            <p className="text-center">
+              <span className="fw-bold">Portamento: </span> Depends
+            </p>
           </div>
         </div>
+        <p className="text-center text-secondary text-i my-5 fs-5">
+          End of Settings.
+        </p>
+        <hr />
       </div>
       <Footer />
     </>

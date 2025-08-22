@@ -136,6 +136,55 @@ function Module4() {
             <img className="img-sizes my-4" src={KWM41} alt="F#Aug" />
           </div>
         </div>
+        <div className="row my-5 text-center">
+          <h1 className="mt-4">Final recap</h1>
+          <h3 className="text-secondary mb-4">
+            Memorizing the chords by semitones
+          </h3>
+          <p>
+            <span className="fw-bold">Major Chord</span> = Root + 4 semitone + 3
+            semitones
+          </p>
+          <p>
+            <span className="fw-bold">Minor Chord</span> = Root + 3 semitone + 4
+            semitones
+          </p>
+          <p>
+            <span className="fw-bold">Augmented Chord</span> = Root + 3 semitone
+            + 3 semitones
+          </p>
+          <p>
+            <span className="fw-bold">Dim Chord</span> = Root + 4 semitone + 4
+            semitones
+          </p>
+          <p>
+            <span className="fw-bold">Dim7 Chord</span> = Root + 4 semitone + 4
+            semitones + 4 semitones
+          </p>
+          <p>
+            <span className="fw-bold">Tritone</span> = Root + 6 semitone
+          </p>
+          <h3 className="text-secondary my-4">
+            Memorizing the chords by note distance.
+          </h3>
+          <p>
+            <span className="fw-bold">Major Second (Suspended).</span> = Root +
+            2nd note.
+          </p>
+          <p>
+            <span className="fw-bold">Major Third (Triad)</span> = Root + 3rd
+            note.
+          </p>
+          <p>
+            <span className="fw-bold">Perfect 4th</span> = Root + 4th note.
+          </p>
+          <p>
+            <span className="fw-bold">Perfect 5th</span> = Root + 5th note.
+          </p>
+          <p>
+            <span className="fw-bold mb-4">Perfect 6th</span> = Root + 6th note.
+          </p>
+        </div>
       </div>
       <p className="text-center text-secondary text-i my-5 fs-5">
         End of Module 4.

@@ -12,6 +12,7 @@ import SampleSongs from "./components/SampleSongs";
 import Module4 from "./components/Module4";
 import StringsViolin from "./components/StringsViolin";
 import Settings from "./components/Settings";
+import Style from "./components/Style";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -43,6 +44,7 @@ function App() {
         <Route path="/sampleSongs" element={<SampleSongs />} />
         <Route path="/module4" element={<Module4 />} />
         <Route path="/settings" element={<Settings />} />
+        <Route path="/beats" element={<Style />} />
         <Route path="/strings-violin" element={<StringsViolin />} />
         <Route path="*" element={<Home />} />
       </Routes>
