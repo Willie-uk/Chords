@@ -82,11 +82,11 @@ function Module4() {
           </p>
           <div className="d-flex flex-column flex-lg-row justify-content-around">
             <div className="d-flex justify-content-center">
-              <p>Sus2</p>
+              <p>F#Sus2</p>
               <img className="img-size my-3" src={KWM36} alt="Sus2" />
             </div>
             <div className="d-flex justify-content-center">
-              <p>Sus4</p>
+              <p>F#Sus4</p>
               <img className="img-size my-3" src={KWM37} alt="Sus4" />
             </div>
           </div>
@@ -102,11 +102,11 @@ function Module4() {
           </p>
           <div className="d-flex flex-column flex-lg-row justify-content-around">
             <div className="d-flex justify-content-center">
-              <p>Sus2</p>
+              <p>F#Sus3</p>
               <img className="img-size my-3" src={KWM38} alt="Sus3" />
             </div>
             <div className="d-flex justify-content-center">
-              <p>Sus4</p>
+              <p>F#3M</p>
               <img className="img-size my-3" src={KWM39} alt="3M" />
             </div>
           </div>
