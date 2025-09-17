@@ -94,19 +94,19 @@ function Module3ii() {
         <div className="row my-5 ">
           <div className="d-flex align-items-center justify-content-center">
             <div className="circleCI2 me-1"></div>
-            <p style={{ margin: 0 }}> = Root Position</p>
+            <p style={{ margin: 0 }}> = First Inversion</p>
           </div>
         </div>
         <div className="row my-5 ">
           <div className="d-flex align-items-center justify-content-center">
             <div className="circleCI3 me-1"></div>
-            <p style={{ margin: 0 }}> = Root Position</p>
+            <p style={{ margin: 0 }}> = Second Inversion</p>
           </div>
         </div>
         <div className="row my-5 ">
           <div className="d-flex align-items-center justify-content-center">
             <div className="circleCI4 me-1"></div>
-            <p style={{ margin: 0 }}> = Root Position</p>
+            <p style={{ margin: 0 }}> = Third Inversion</p>
           </div>
         </div>
         <div className="row mt-5">

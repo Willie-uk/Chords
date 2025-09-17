@@ -22,12 +22,12 @@ function Style() {
           <h3>Time Signature (Beats)</h3>
           <p>
             When beats starts you will hear the a kick and a snare, this is
-            called a <span className="fw-bold">Bar</span>. The number of bars
-            that makes a complete loop is called a{" "}
-            <span className="fw-bold">Time Signature</span>. In musical sheets,
-            a bar is a segment of music bounded by vertical lines. The time
-            signatures include 2/4, 3/4, 4/4, and 6/8. Each time signature has
-            its own unique feel and is used in different musical contexts.
+            called a <span className="fw-bold">Loop</span>. The number of loops
+            that makes a complete rotation is called a{" "}
+            <span className="fw-bold">Bar or Time Signature</span>. In musical
+            sheets, a bar is a segment of music bounded by vertical lines. The
+            time signatures include 2/4, 3/4, 4/4, and 6/8. Each time signature
+            has its own unique feel and is used in different musical contexts.
           </p>
           <div className="my-4 d-flex flex-column align-items-center px-2">
             <p>Example of 2/4 = Showtune, Eutrace.</p>

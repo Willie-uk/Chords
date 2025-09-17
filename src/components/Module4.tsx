@@ -10,8 +10,10 @@ import KWM38 from "../assets/AC-5.png";
 import KWM39 from "../assets/AC-6.png";
 import KWM40 from "../assets/AC-7.png";
 import KWM41 from "../assets/AC-8.png";
+import { useState } from "react";
 
 function Module4() {
+  const [show, setShow] = useState(false);
   return (
     <>
       <Navbar />
@@ -28,7 +30,7 @@ function Module4() {
               <h4>2. F#Dim7</h4>
               <h4>3. F#Sus2 & F#Sus4</h4>
               <h4>4. F#Sus3 & F#3Major</h4>
-              <h4>5. F# 6 minor Scale</h4>
+              <h4>5. F# Relative Minor Scale</h4>
             </div>
           </div>
         </div>
@@ -110,7 +112,7 @@ function Module4() {
           </div>
         </div>
         <div className="row mt-3">
-          <h3>F# 6 minor Scale</h3>
+          <h3>F# Relative Minor Scale (F# 6 minor Scale)</h3>
           <p>
             This scale is formed while starting with note 6 in the F# scale.
             This is one of the most unique scale in the piano, it is used in the
@@ -150,16 +152,16 @@ function Module4() {
             semitones
           </p>
           <p>
-            <span className="fw-bold">Augmented Chord</span> = Root + 3 semitone
-            + 3 semitones
-          </p>
-          <p>
-            <span className="fw-bold">Dim Chord</span> = Root + 4 semitone + 4
+            <span className="fw-bold">Dim Chord</span> = Root + 3 semitone + 3
             semitones
           </p>
           <p>
-            <span className="fw-bold">Dim7 Chord</span> = Root + 4 semitone + 4
-            semitones + 4 semitones
+            <span className="fw-bold">Aug Chord</span> = Root + 4 semitone + 4
+            semitones
+          </p>
+          <p>
+            <span className="fw-bold">Dim7 Chord</span> = Root + 3 semitone + 3
+            semitones + 3 semitones
           </p>
           <p>
             <span className="fw-bold">Tritone</span> = Root + 6 semitone
@@ -184,6 +186,51 @@ function Module4() {
           <p>
             <span className="fw-bold mb-4">Perfect 6th</span> = Root + 6th note.
           </p>
+        </div>
+      </div>
+      <div className="row mt-2">
+        <div className="d-flex justify-content-center align-items-center">
+          {/* Button */}
+          <button className="btn btn-dark" onClick={() => setShow(true)}>
+            Hard Progression Songs
+          </button>
+
+          {/* Modal */}
+          {show && (
+            <div
+              className="modal fade show"
+              style={{ display: "block", background: "rgba(0,0,0,0.5)" }}
+              onClick={() => setShow(false)}
+            >
+              <div
+                className="modal-dialog modal-dialog-centered"
+                onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside
+              >
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h5 className="modal-title">Hard Progression Songs</h5>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      onClick={() => setShow(false)}
+                    ></button>
+                  </div>
+                  <div className="modal-body">
+                    <p>
+                      1. Holy Spirit rain down (1, E, E, 6, 2, 3, 4, Sus2,
+                      5...Let your power 4, 4 Dim7, 6, 4m, 1, 5, 4...No eyes
+                      have seen 4, 3Sus, 3M, 6, 4m)
+                    </p>
+                    <p>
+                      2. I Stand in awe (1, 3, 4, 5, 1...1, 3, 4, 2M, 5, 4 Dim7,
+                      6, 5, C Dim, 2, Sus2, 5, 1... chorus; 1, 5, 4...3Sus, 3M,
+                      6, 5, C Dim, 2, 5, 1)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
       <p className="text-center text-secondary text-i my-5 fs-5">

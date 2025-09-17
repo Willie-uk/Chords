@@ -51,7 +51,7 @@ function Settings() {
                 </tr>
                 <tr>
                   <td>Touch</td>
-                  <td>Off</td>
+                  <td>Fixed</td>
                 </tr>
                 <tr>
                   <td>Split Point</td>
@@ -190,8 +190,8 @@ function Settings() {
               (Mixer)
             </p>
             <p className="text-center">
-              <span className="fw-bold">Db Left / Db Right: </span> 10 /10
-              (Equilizer)
+              <span className="fw-bold">Db Left (EQ1) / Db Right (EQ5): </span>{" "}
+              7 / 4 (Master EQ)
             </p>
             <p className="text-center">
               <span className="fw-bold">Left Lock: </span> Off

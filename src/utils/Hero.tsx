@@ -37,10 +37,13 @@ function Hero() {
       <div className="col-lg-6 mx-auto">
         <p className="lead mb-4">
           This is a platform for learning and mastering worship chords, scales
-          and progressions, beats and settings used by the MINISTRY OF
-          REPENTANCE AND HOLINESS. Whether you're a beginner or an advanced
-          player, we have resources to help you improve your skills. Join us in
-          exploring the world of worship music and enhancing your piano journey.
+          and progressions, beats and settings used by the{" "}
+          <span className="fw-bold text-secondary">
+            MINISTRY OF REPENTANCE AND HOLINESS.
+          </span>{" "}
+          Whether you're a beginner or an advanced player, we have resources to
+          help you improve your skills. Join us in exploring the world of
+          worship music and enhancing your piano journey.
         </p>
       </div>
       <div className="my-5 container">
@@ -72,8 +75,8 @@ function Hero() {
         <div className="d-flex flex-column align-items-start px-4">
           <p>
             <span className="fw-bold">Module 4: </span>Advanced Chords; F#M7
-            (Dom 7), F#Dim7, F#Sus2 & F#Sus4, F#Sus3 & F#3Major, F# 6 minor
-            Scale and F# Aug.
+            (Dom 7), F#Dim7, F#Sus2 & F#Sus4, F#Sus3 & F#3Major, F# Relative
+            minor and F# Aug.
           </p>
         </div>
         <h3 className="text-start ms-4 text-secondary">Settings Section</h3>

@@ -176,9 +176,9 @@ function Module3iii() {
                     <div className="modal-body">
                       <p>
                         1. Through it all, i have learn to trust in Jesus
-                        (1,3,4,2,5,5)
+                        (1,3,4,2,5,5,1)
                       </p>
-                      <p>2. Jesus, is the King of Kings (1,5,4,1,6)</p>
+                      <p>2. Jesus, is the King of Kings (5,4,1,6)</p>
                       <p>3. Thank you / Gracias Senor (1,5,2,6,1,5,4,4)</p>
                       <p>4. Alpha and Omega / nasema asante (1,6,2,5,3,6,5)</p>
                       <p>
