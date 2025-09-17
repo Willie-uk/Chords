@@ -1,4 +1,4 @@
-import KWM42 from "../assets/strings-violin.png";
+import KWM42 from "../assets/Strings-Violin.png";
 import Footer from "../utils/Footer";
 import Navbar from "../utils/Nav";
 import Spacer from "../utils/Spacer";
