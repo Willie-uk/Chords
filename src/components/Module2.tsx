@@ -70,8 +70,8 @@ function Module2() {
         <div className="row mt-5">
           <h3>F# Harmonic Minor Scale</h3>
           <p>
-            In the F# harmonic minor scale, only the 3rd note, 6th note and 7th
-            note are lowered down by a Semi-tone.
+            In the F# harmonic minor scale, only the 3rd note, and 6th note are
+            lowered down by a Semi-tone.
           </p>
           <div className="d-flex justify-content-around">
             <img className="img-sizes my-4" src={KWM6} alt="Semi-tones" />

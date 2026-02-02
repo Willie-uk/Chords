@@ -52,9 +52,9 @@ const Footer: React.FC = () => {
           </div>
           <hr className="mx-auto" style={{ width: "60%", opacity: ".1" }} />
           <div className="d-flex flex-column flex-sm-row text-center justify-content-evenly mt-3">
-            <p style={{ color: "lightgray" }}>WorshipChords &copy; 2025</p>
+            <p style={{ color: "lightgray" }}>WorshipChords &copy; 2026</p>
             <small style={{ color: "rgb(0,95,135)", opacity: ".3" }}>
-              From beginner <span style={{ color: "green" }}>to advance.</span>
+              From Beginner <span style={{ color: "green" }}>to Advance.</span>
             </small>
           </div>
         </div>
