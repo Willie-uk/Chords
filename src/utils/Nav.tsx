@@ -40,6 +40,7 @@ function Navbar() {
         height: "70px",
         backgroundColor: "rgba(255, 255, 255, 0.2)",
         backdropFilter: "blur(10px)",
+        WebkitBackdropFilter: "blur(10px)",
         top: 0,
         left: 0,
         right: 0,

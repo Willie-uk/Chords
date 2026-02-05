@@ -145,6 +145,16 @@ function Module3iii() {
             hand arpeggios with the chords of the same number on your right
             hand.
           </p>
+          <p>
+            For refference till this point, watch on video;{" "}
+            <a
+              href="https://www.youtube.com/live/IAJN_maTw5o"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Lesson 1: Beginner
+            </a>
+          </p>
         </div>
         <div className="row mt-2">
           <div className="d-flex justify-content-center align-items-center">
@@ -199,7 +209,6 @@ function Module3iii() {
             )}
           </div>
         </div>
-
         <p className="text-center text-secondary text-i my-5 fs-5">
           End of Module 3(iii).
         </p>
