@@ -120,47 +120,61 @@ function Module2() {
               <Accordion.Body>
                 Major scales sound bright and joyful. They are used in pop,
                 gospel, hymns, classical music, and to form major chords.
-                Formula: W-W-H-W-W-W-H.
+                Formula: <span className="fw-bold">W-W-H-W-W-W-H</span> or{" "}
+                <span className="fw-bold">1,2,3,4,5,6,7,8</span> or{" "}
+                <span className="fw-bold">F#,G#,A#,B,C#,D#,F,F#</span>.
               </Accordion.Body>
             </Accordion.Item>
 
             <Accordion.Item eventKey="1">
               <Accordion.Header>
-                Minor Scale – Emotion & Function
+                Minor Scale – Usage & Formation
               </Accordion.Header>
               <Accordion.Body>
                 Minor scales sound emotional or sad. They are commonly used in
                 worship, ballads, film music, and minor chord progressions.
+                Formula: <span className="fw-bold">W-H-W-W-H-W-W</span> or{" "}
+                <span className="fw-bold">1,2,3b,4,5,6b,7b,8</span> or{" "}
+                <span className="fw-bold">F#,G#C,A,B,C#,D,E,F#.</span>
               </Accordion.Body>
             </Accordion.Item>
 
             <Accordion.Item eventKey="2">
               <Accordion.Header>
-                Harmonic Minor – Tension & Drama
+                Harmonic Minor – Usage & Formation
               </Accordion.Header>
               <Accordion.Body>
                 Harmonic minor introduces tension using a raised 7th note. It is
                 popular in classical music and dramatic chord movements.
+                Formula: <span className="fw-bold">W-H-W-W-H-3H-H</span> or{" "}
+                <span className="fw-bold">1,2,3b,4,5,6b,7,8</span> or{" "}
+                <span className="fw-bold">F#,G#,A,B,C#,D,F,F#.</span>
               </Accordion.Body>
             </Accordion.Item>
 
             <Accordion.Item eventKey="3">
               <Accordion.Header>
-                Pentatonic – Easy Improvisation
+                Pentatonic – Usage & Formation
               </Accordion.Header>
               <Accordion.Body>
                 Pentatonic scales are safe for improvisation. They work well
                 over many chords and are widely used in gospel, pop, and rock.
+                Formula: <span className="fw-bold">W-W-3H-W.</span> or{" "}
+                <span className="fw-bold">1,2,3,5,6</span> or{" "}
+                <span className="fw-bold">F#,G#,A#,C#,D#.</span>
               </Accordion.Body>
             </Accordion.Item>
 
             <Accordion.Item eventKey="4">
               <Accordion.Header>
-                Blues Scale – Expression & Soloing
+                Blues Scale – Usage & Formation
               </Accordion.Header>
               <Accordion.Body>
                 Blues scales add expression using the blue note. They are used
-                in jazz, blues, and solo performances.
+                in jazz, blues, and solo performances. Formula:{" "}
+                <span className="fw-bold">3H-W-H-H-3H-W</span> or
+                <span className="fw-bold">1,3b,4,5b,5,7b,8</span> or{" "}
+                <span className="fw-bold">F#,A,B,C,C#,E,F#.</span>
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
