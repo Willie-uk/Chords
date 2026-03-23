@@ -21,6 +21,9 @@ function Hero() {
   const handleModule4 = () => {
     navigate("/module4");
   };
+  const handleModule5 = () => {
+    navigate("/module5");
+  };
   const StringsViolin = () => {
     navigate("/strings-violin");
   };
@@ -77,6 +80,11 @@ function Hero() {
             <span className="fw-bold">Module 4: </span>Advanced Chords; F#M7
             (Dom 7), F#Dim7, F#Sus2 & F#Sus4, F#Sus3 & F#3Major, F# Relative
             minor and F# Aug.
+          </p>
+          <p>
+            <span className="fw-bold">Module 5: </span>Chord Cycle; Circle of
+            two, Circle of fourth and Circle of fifth, Perfect fifth and Perfect
+            sixth.
           </p>
         </div>
         <h3 className="text-start ms-4 text-secondary">Settings Section</h3>
@@ -150,6 +158,11 @@ function Hero() {
           <div className="col-sm-3">
             <div onClick={handleModule4} className="btn btn-dark btn-lg w-100">
               Module 4
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div onClick={handleModule5} className="btn btn-dark btn-lg w-100">
+              Module 5
             </div>
           </div>
           <div className="col-sm-3">

@@ -14,6 +14,7 @@ import KWM30 from "../assets/chord-l-8.png";
 import KWM31 from "../assets/chord-l-9.png";
 import KWM32 from "../assets/chord-l-10.png";
 import KWM33 from "../assets/chord-l-11.png";
+import Lesson1 from "../links/Lesson1";
 
 function Module3iii() {
   const [show, setShow] = useState(false);
@@ -145,17 +146,8 @@ function Module3iii() {
             hand arpeggios with the chords of the same number on your right
             hand.
           </p>
-          <p>
-            For refference till this point, watch on video;{" "}
-            <a
-              href="https://www.youtube.com/live/IAJN_maTw5o"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Lesson 1: Beginner
-            </a>
-          </p>
         </div>
+        <Lesson1 />
         <div className="row mt-2">
           <div className="d-flex justify-content-center align-items-center">
             {/* Button */}

@@ -8,6 +8,7 @@ import Navbar from "../utils/Nav";
 import Spacer from "../utils/Spacer";
 import Footer from "../utils/Footer";
 import Accordion from "react-bootstrap/Accordion";
+import Lesson1 from "../links/Lesson1";
 
 function Module2() {
   return (
@@ -190,7 +191,7 @@ function Module2() {
             before combining both hands.
           </p>
         </div>
-
+        <Lesson1 />
         <p className="text-center text-secondary text-i my-5 fs-5">
           End of Module 2.
         </p>

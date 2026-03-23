@@ -10,6 +10,7 @@ import KWM13 from "../assets/chord-5.png";
 import KWM14 from "../assets/chord-6.png";
 import KWM15 from "../assets/chord-7.png";
 import { ArrowBigLeft, ArrowBigRight } from "lucide-react";
+import Lesson1 from "../links/Lesson1";
 
 function Module3() {
   return (
@@ -179,6 +180,7 @@ function Module3() {
           </div>
         </div>
         <p>Complete the above table.</p>
+        <Lesson1 />
         <p className="text-center text-secondary text-i my-5 fs-5">
           End of Module 3(i).
         </p>

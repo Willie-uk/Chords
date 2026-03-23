@@ -145,6 +145,12 @@ function Style() {
             </table>
           </div>
         </div>
+        {/* <button className="btn btn-dark mt-4">
+          {" "}
+          <a href="../sxWilly/Styles" download className="btn btn-dark">
+            Download Beat Depo
+          </a>
+        </button> */}
         <p className="text-center text-secondary text-i my-5 fs-5">
           End of Beats Section.
         </p>

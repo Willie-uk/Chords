@@ -9,6 +9,7 @@ import KWM19 from "../assets/chord-i-4.png";
 import KWM20 from "../assets/chord-i-5.png";
 import KWM21 from "../assets/chord-i-6.png";
 import KWM22 from "../assets/chord-i-7.png";
+import Lesson1 from "../links/Lesson1";
 
 function Module3ii() {
   return (
@@ -115,6 +116,7 @@ function Module3ii() {
             all the octives.
           </p>
         </div>
+        <Lesson1 />
         <p className="text-center text-secondary text-i my-5 fs-5">
           End of Module 3(ii).
         </p>

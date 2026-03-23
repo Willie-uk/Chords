@@ -2,6 +2,7 @@ import "../App.css";
 import KWM1 from "../assets/naming-1.png";
 import KWM2 from "../assets/naming-2.png";
 import KWM3 from "../assets/naming-3.png";
+import Lesson1 from "../links/Lesson1";
 import Footer from "../utils/Footer";
 import Navbar from "../utils/Nav";
 import Spacer from "../utils/Spacer";
@@ -154,7 +155,7 @@ function Intro() {
               </Accordion.Item>
             </Accordion>
           </div>
-
+          <Lesson1 />
           {/* END */}
           <div className="row my-5">
             <p className="text-i text-center fs-5 text-secondary">
