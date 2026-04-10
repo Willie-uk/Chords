@@ -1,6 +1,9 @@
 import Footer from "../utils/Footer";
 import Navbar from "../utils/Nav";
 import Spacer from "../utils/Spacer";
+import voices from "../zip/Voices.zip";
+import mpad from "../zip/Multipad.zip";
+import { Download } from "lucide-react";
 
 function Settings() {
   return (
@@ -20,6 +23,22 @@ function Settings() {
               <h4>3. SX600</h4>
               <h4>4. S950</h4>
               <h4>5. SX900</h4>
+              <a
+                href={voices}
+                download="SX Willy Voices"
+                className="btn btn-danger d-flex align-items-center gap-2 justify-content-center mt-2"
+              >
+                <Download size={18} />
+                Download Voices
+              </a>
+              <a
+                href={mpad}
+                download="SX Willy Multipads "
+                className="btn btn-danger d-flex align-items-center gap-2 justify-content-center mt-2"
+              >
+                <Download size={18} />
+                Download Multipad
+              </a>
             </div>
           </div>
         </div>

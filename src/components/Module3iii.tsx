@@ -15,10 +15,14 @@ import KWM31 from "../assets/chord-l-9.png";
 import KWM32 from "../assets/chord-l-10.png";
 import KWM33 from "../assets/chord-l-11.png";
 import Lesson1 from "../links/Lesson1";
+import { useNavigate } from "react-router-dom";
 
 function Module3iii() {
   const [show, setShow] = useState(false);
-
+  const Navigate = useNavigate();
+  const DM3iii = () => {
+    Navigate("/D/module3/iii");
+  };
   return (
     <>
       <Navbar />
@@ -34,6 +38,9 @@ function Module3iii() {
               <h4>1. Left Hand</h4>
               <h4>2. Arpeggios</h4>
               <h4>3. Octive Position</h4>
+              <button className="btn btn-dark px-5 mt-2" onClick={DM3iii}>
+                Use Key <span className="fw-bold ms-1">D</span>
+              </button>
             </div>
           </div>
         </div>

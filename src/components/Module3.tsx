@@ -11,8 +11,13 @@ import KWM14 from "../assets/chord-6.png";
 import KWM15 from "../assets/chord-7.png";
 import { ArrowBigLeft, ArrowBigRight } from "lucide-react";
 import Lesson1 from "../links/Lesson1";
+import { useNavigate } from "react-router-dom";
 
 function Module3() {
+  const Navigate = useNavigate();
+  const DM3i = () => {
+    Navigate("/D/module3");
+  };
   return (
     <>
       <Navbar />
@@ -28,6 +33,9 @@ function Module3() {
             <div className="ms-2">
               <h4>a. Major Chords</h4>
               <h4>b. Minor Chords</h4>
+              <button className="btn btn-dark px-5 mt-2" onClick={DM3i}>
+                Use Key <span className="fw-bold ms-1">D</span>
+              </button>
             </div>
           </div>
         </div>

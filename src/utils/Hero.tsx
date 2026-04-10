@@ -46,7 +46,8 @@ function Hero() {
           </span>{" "}
           Whether you're a beginner or an advanced player, we have resources to
           help you improve your skills. Join us in exploring the world of
-          worship music and enhancing your piano journey.
+          worship music and enhancing your piano journey. Majority of the chords
+          will be written in the Key of D Major.
         </p>
       </div>
       <div className="my-5 container">
@@ -77,9 +78,8 @@ function Hero() {
         <h3 className="text-start ms-4 text-secondary">Intermediate Section</h3>
         <div className="d-flex flex-column align-items-start px-4">
           <p>
-            <span className="fw-bold">Module 4: </span>Advanced Chords; F#M7
-            (Dom 7), F#Dim7, F#Sus2 & F#Sus4, F#Sus3 & F#3Major, F# Relative
-            minor and F# Aug.
+            <span className="fw-bold">Module 4: </span>Advanced Chords; M7 (Dom
+            7), Dim7, Sus2 & Sus4, Sus3 & 3Major, Relative minor and Aug.
           </p>
           <p>
             <span className="fw-bold">Module 5: </span>Chord Cycle; Circle of

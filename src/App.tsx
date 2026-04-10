@@ -14,6 +14,11 @@ import StringsViolin from "./components/StringsViolin";
 import Settings from "./components/Settings";
 import Style from "./components/Style";
 import Module5 from "./components/Module5";
+import DModule2 from "./keyD/DModule2";
+import DModule3 from "./keyD/DModule3";
+import DModule3ii from "./keyD/DModule3ii";
+import DModule3iii from "./keyD/DModule3iii";
+import DModule4 from "./keyD/DModule4";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -38,12 +43,17 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/module1" element={<Intro />} />
-        <Route path="/module2" element={<Module2 />} />
-        <Route path="/module3" element={<Module3 />} />
-        <Route path="/module3/ii" element={<Module3ii />} />
-        <Route path="/module3/iii" element={<Module3iii />} />
+        <Route path="/Fsharp/module2" element={<Module2 />} />
+        <Route path="/Fsharp/module3" element={<Module3 />} />
+        <Route path="/Fsharp/module3/ii" element={<Module3ii />} />
+        <Route path="/Fsharp/module3/iii" element={<Module3iii />} />
+        <Route path="/Fsharp/module4" element={<Module4 />} />
         <Route path="/sampleSongs" element={<SampleSongs />} />
-        <Route path="/module4" element={<Module4 />} />
+        <Route path="/D/module2" element={<DModule2 />} />
+        <Route path="/D/module3" element={<DModule3 />} />
+        <Route path="/D/module3/ii" element={<DModule3ii />} />
+        <Route path="/D/module3/iii" element={<DModule3iii />} />
+        <Route path="/D/module4" element={<DModule4 />} />
         <Route path="/module5" element={<Module5 />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/beats" element={<Style />} />

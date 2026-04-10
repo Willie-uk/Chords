@@ -10,8 +10,13 @@ import KWM20 from "../assets/chord-i-5.png";
 import KWM21 from "../assets/chord-i-6.png";
 import KWM22 from "../assets/chord-i-7.png";
 import Lesson1 from "../links/Lesson1";
+import { useNavigate } from "react-router-dom";
 
 function Module3ii() {
+  const Navigate = useNavigate();
+  const DM3ii = () => {
+    Navigate("/D/module3/ii");
+  };
   return (
     <>
       <Navbar />
@@ -29,6 +34,9 @@ function Module3ii() {
               <h4>b. First Inversion</h4>
               <h4>c. Second Inversion</h4>
               <h4>d. Third Inversion</h4>
+              <button className="btn btn-dark px-5 mt-2" onClick={DM3ii}>
+                Use Key <span className="fw-bold ms-1">D</span>
+              </button>
             </div>
           </div>
         </div>

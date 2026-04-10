@@ -1,6 +1,9 @@
 import Footer from "../utils/Footer";
 import Navbar from "../utils/Nav";
 import Spacer from "../utils/Spacer";
+import beats from "../zip/Styles.zip";
+
+import { Download } from "lucide-react";
 
 function Style() {
   return (
@@ -15,6 +18,14 @@ function Style() {
             <h4 className="fw-bold">Content: </h4>
             <div className="d-flex flex-column ms-3">
               <h4>Time Signature.</h4>
+              <a
+                href={beats}
+                download="SX Willy Styles"
+                className="btn btn-danger d-flex align-items-center gap-2 justify-content-center mt-2"
+              >
+                <Download size={18} />
+                Download Styles
+              </a>
             </div>
           </div>
         </div>

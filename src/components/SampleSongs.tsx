@@ -12,7 +12,7 @@ function SampleSongs() {
         <hr className="w-75 mx-auto" />
         <div className="d-flex flex-column align-items-start px-4">
           <p>
-            1. Holy Holy Holy are you Lord (1,3,4,2,5,1,E,1...4,5,3,6,2,5,1)
+            1. Holy Holy Holy are you Lord (1,3,4,2,5,1,Dom7,1...4,5,3,6,2,5,1)
           </p>
           <p>2. Its all about you Jesus (4,5,3,6,2,5,1,6)</p>
           <p>

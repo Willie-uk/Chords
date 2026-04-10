@@ -2,6 +2,8 @@ import Footer from "../utils/Footer";
 import Navbar from "../utils/Nav";
 import Spacer from "../utils/Spacer";
 import KWM42 from "../assets/Circle.png";
+import { Download } from "lucide-react";
+import myPdf from "../pdf/Piano-Lesson-Module5.pdf";
 
 function Module5() {
   return (
@@ -21,6 +23,14 @@ function Module5() {
               <h4>3. Circle of Fifth</h4>
               <h4>4. Perfect Fifth</h4>
               <h4>5. Perfect Sixth</h4>
+              <a
+                href={myPdf}
+                download="Piano-Lesson-Module5.pdf"
+                className="btn btn-danger d-flex align-items-center gap-2 justify-content-center mt-2"
+              >
+                <Download size={18} />
+                Download PDF
+              </a>
             </div>
           </div>
         </div>

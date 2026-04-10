@@ -18,19 +18,19 @@ function Navbar() {
     navigate("/module1");
   };
   const handleModule2 = () => {
-    navigate("/module2");
+    navigate("/D/module2");
   };
   const handleModule3 = () => {
-    navigate("/module3");
+    navigate("/D/module3");
   };
   const handleModule3ii = () => {
-    navigate("/module3/ii");
+    navigate("/D/module3/ii");
   };
   const handleModule3iii = () => {
-    navigate("/module3/iii");
+    navigate("/D/module3/iii");
   };
   const handleModule4 = () => {
-    navigate("/module4");
+    navigate("/D/module4");
   };
   const handleModule5 = () => {
     navigate("/module5");

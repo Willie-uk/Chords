@@ -11,9 +11,14 @@ import KWM39 from "../assets/AC-6.png";
 import KWM40 from "../assets/AC-7.png";
 import KWM41 from "../assets/AC-8.png";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Module4() {
   const [show, setShow] = useState(false);
+  const Navigate = useNavigate();
+  const DM4 = () => {
+    Navigate("/D/module4");
+  };
   return (
     <>
       <Navbar />
@@ -31,6 +36,9 @@ function Module4() {
               <h4>3. F#Sus2 & F#Sus4</h4>
               <h4>4. F#Sus3 & F#3Major</h4>
               <h4>5. F# Relative Minor Scale</h4>
+              <button className="btn btn-dark px-5 mt-2" onClick={DM4}>
+                Use Key <span className="fw-bold ms-1">D</span>
+              </button>
             </div>
           </div>
         </div>
@@ -112,7 +120,7 @@ function Module4() {
           </div>
         </div>
         <div className="row mt-3">
-          <h3>F# Relative Minor Scale (F# 6 minor Scale)</h3>
+          <h3>F# Relative Minor Scale (6 minor Scale)</h3>
           <p>
             This scale is formed while starting with note 6 in the F# scale.
             This is one of the most unique scale in the piano, it is used in the

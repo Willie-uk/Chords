@@ -9,8 +9,13 @@ import Spacer from "../utils/Spacer";
 import Footer from "../utils/Footer";
 import Accordion from "react-bootstrap/Accordion";
 import Lesson1 from "../links/Lesson1";
+import { useNavigate } from "react-router-dom";
 
 function Module2() {
+  const Navigate = useNavigate();
+  const DM2 = () => {
+    Navigate("/D/module2");
+  };
   return (
     <>
       <Navbar />
@@ -30,6 +35,9 @@ function Module2() {
               <h4>c. Harmonic Minor Scale</h4>
               <h4>d. Pentatonic Scale</h4>
               <h4>e. Blues Scale</h4>
+              <button className="btn btn-dark px-5 mt-2" onClick={DM2}>
+                Use Key <span className="fw-bold ms-1">D</span>
+              </button>
             </div>
           </div>
         </div>
