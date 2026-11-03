@@ -2,6 +2,7 @@ import Footer from "../utils/Footer";
 import Navbar from "../utils/Nav";
 import Spacer from "../utils/Spacer";
 import beats from "../zip/Styles.zip";
+import beatData from "./style.json";
 
 import { Download } from "lucide-react";
 
@@ -46,122 +47,43 @@ function Style() {
             <p>Example of 4/4 = Piano Ballad.</p>
             <p>Example of 6/8 = 6-8 Soul.</p>
           </div>
-          <div className="container mt-4">
-            <h3 className="mb-3">Beat Samples</h3>
-            <table className="table table-striped table-bordered text-center">
+        </div>
+
+        {/* BEAT SAMPLES */}
+        <div className="container mt-4">
+          <div className="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+            <h3 className="mb-0">Beat Samples</h3>
+
+            <span className="badge bg-dark p-2">
+              Total Songs: {beatData.beatSamples.length}
+            </span>
+          </div>
+
+          <div className="table-responsive">
+            <table className="table table-striped table-bordered text-center align-middle">
               <thead className="table-dark">
                 <tr>
+                  <th scope="col">...</th>
                   <th scope="col">Song</th>
                   <th scope="col">Category</th>
                   <th scope="col">Beat</th>
                 </tr>
               </thead>
+
               <tbody>
-                <tr>
-                  <td>Old Ragged Cross</td>
-                  <td>Swing&Jazz</td>
-                  <td>Jazz Waltz Fast</td>
-                </tr>
-                <tr>
-                  <td>Mercy Rewrote</td>
-                  <td>Swing&Jazz</td>
-                  <td>Jazz Waltz Fast</td>
-                </tr>
-                <tr>
-                  <td>He Touched Me</td>
-                  <td>Swing&Jazz</td>
-                  <td>Jazz Waltz Fast</td>
-                </tr>
-                <tr>
-                  <td>Burdens</td>
-                  <td>Ballroom</td>
-                  <td>English Waltz</td>
-                </tr>
-                <tr>
-                  <td>My Redeemer</td>
-                  <td>Ballad</td>
-                  <td>Piano Ballad</td>
-                </tr>
-                <tr>
-                  <td>We Were Made</td>
-                  <td>Ballad</td>
-                  <td>Piano Ballad</td>
-                </tr>
-                <tr>
-                  <td>He knows my name</td>
-                  <td>Ballad</td>
-                  <td>PopGtrBallad</td>
-                </tr>
-                <tr>
-                  <td>Shallom Jerusalem</td>
-                  <td>Ballad</td>
-                  <td>Analog Ballad</td>
-                </tr>
-                <tr>
-                  <td>Sweet Anointing</td>
-                  <td>Ballad</td>
-                  <td>PopGtrBallad</td>
-                </tr>
-                <tr>
-                  <td>Lamb of God</td>
-                  <td>Ballad</td>
-                  <td>PopGtrBallad</td>
-                </tr>
-                <tr>
-                  <td>Carry me Jesus</td>
-                  <td>Ballad</td>
-                  <td>PopGtrBallad</td>
-                </tr>
-                <tr>
-                  <td>Amazing Love</td>
-                  <td>Ballad</td>
-                  <td>PopGtrBallad</td>
-                </tr>
-                <tr>
-                  <td>Majesty</td>
-                  <td>Ballad</td>
-                  <td>Love Song</td>
-                </tr>
-                <tr>
-                  <td>Call upon</td>
-                  <td>Country</td>
-                  <td>Country Ballad</td>
-                </tr>
-                <tr>
-                  <td>This Too Shall Pass</td>
-                  <td>Country</td>
-                  <td>Country Ballad</td>
-                </tr>
-                <tr>
-                  <td>Increase</td>
-                  <td>Country</td>
-                  <td>Country Ballad</td>
-                </tr>
-                <tr>
-                  <td>This Blood</td>
-                  <td>Pop&Rock</td>
-                  <td>3ive8Beat</td>
-                </tr>
-                <tr>
-                  <td>Eagles Wings</td>
-                  <td>Pop&Rock</td>
-                  <td>3ive8Beat</td>
-                </tr>
-                <tr>
-                  <td>Four Days Late</td>
-                  <td>R&B</td>
-                  <td>6-8 Soul</td>
-                </tr>
+                {beatData.beatSamples.map((item, index) => (
+                  <tr key={`${item.song}-${index}`}>
+                    <td>{index + 1}</td>
+                    <td>{item.song}</td>
+                    <td>{item.category}</td>
+                    <td>{item.beat}</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
         </div>
-        {/* <button className="btn btn-dark mt-4">
-          {" "}
-          <a href="../sxWilly/Styles" download className="btn btn-dark">
-            Download Beat Depo
-          </a>
-        </button> */}
+
         <p className="text-center text-secondary text-i my-5 fs-5">
           End of Beats Section.
         </p>

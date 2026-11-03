@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import Update from "./Update";
 
 function Hero() {
   const navigate = useNavigate();
@@ -118,6 +119,9 @@ function Hero() {
             <span className="fw-bold">Notes: </span> Notes For Normal worship
           </p>
         </div>
+      </div>
+      <div className="my-5 container">
+        <Update />
       </div>
       <div className="container">
         <div className="row g-3 justify-content-center">

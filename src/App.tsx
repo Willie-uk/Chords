@@ -19,6 +19,7 @@ import DModule3 from "./keyD/DModule3";
 import DModule3ii from "./keyD/DModule3ii";
 import DModule3iii from "./keyD/DModule3iii";
 import DModule4 from "./keyD/DModule4";
+import Update from "./utils/Update";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -58,6 +59,7 @@ function App() {
         <Route path="/settings" element={<Settings />} />
         <Route path="/beats" element={<Style />} />
         <Route path="/strings-violin" element={<StringsViolin />} />
+        <Route path="/update" element={<Update />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>

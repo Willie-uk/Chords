@@ -1,0 +1,127 @@
+
+{
+  
+  "beatSamples": [
+    {
+      "song": "Old Ragged Cross",
+      "category": "Swing&Jazz",
+      "beat": "Jazz Waltz Fast"
+    },
+    {
+      "song": "Mercy Rewrote",
+      "category": "Swing&Jazz",
+      "beat": "Jazz Waltz Fast"
+    },
+    {
+      "song": "He Touched Me",
+      "category": "Swing&Jazz",
+      "beat": "Jazz Waltz Fast"
+    },
+    {
+      "song": "Burdens",
+      "category": "Ballroom",
+      "beat": "English Waltz"
+    },
+    {
+      "song": "My Redeemer",
+      "category": "Ballad",
+      "beat": "Piano Ballad"
+    },
+    {
+      "song": "We Were Made",
+      "category": "Ballad",
+      "beat": "Piano Ballad"
+    },
+    {
+      "song": "He knows my name",
+      "category": "Ballad",
+      "beat": "PopGtrBallad"
+    },
+    {
+      "song": "Shallom Jerusalem",
+      "category": "Ballad",
+      "beat": "Analog Ballad"
+    },
+    {
+      "song": "Sweet Anointing",
+      "category": "Ballad",
+      "beat": "PopGtrBallad"
+    },
+    {
+      "song": "Lamb of God",
+      "category": "Ballad",
+      "beat": "PopGtrBallad"
+    },
+    {
+      "song": "Carry me Jesus",
+      "category": "Ballad",
+      "beat": "PopGtrBallad"
+    },
+    {
+      "song": "Amazing Love",
+      "category": "Ballad",
+      "beat": "PopGtrBallad"
+    },
+    {
+      "song": "Majesty",
+      "category": "Ballad",
+      "beat": "Love Song"
+    },
+    {
+      "song": "Call upon",
+      "category": "Country",
+      "beat": "Country Ballad"
+    },
+    {
+      "song": "This Too Shall Pass",
+      "category": "Country",
+      "beat": "Country Ballad"
+    },
+    {
+      "song": "Increase",
+      "category": "Country",
+      "beat": "Country Ballad"
+    },
+    {
+      "song": "This Blood",
+      "category": "Pop&Rock",
+      "beat": "3ive8Beat"
+    },
+    {
+      "song": "Eagles Wings",
+      "category": "Pop&Rock",
+      "beat": "3ive8Beat"
+    },
+    {
+      "song": "Four Days Late",
+      "category": "R&B",
+      "beat": "6-8 Soul"
+    },
+    {
+      "song": "Let it rain",
+      "category": "Pop&Rock",
+      "beat": "90s gtrpop"
+    },
+    {
+      "song": "Come Jesus Come",
+      "category": "Pop&Rock",
+      "beat": "6/8 slow rock"
+    },
+    {
+      "song": "Wonderful Merciful",
+      "category": "Pop&Rock",
+      "beat": "6/8 soul"
+    },
+    {
+      "song": "Wasted Years",
+      "category": "Swing&Jazz",
+      "beat": "Midnight Swing"
+    },
+    {
+      "song": "God on the Mountain",
+      "category": "Country",
+      "beat": "Country 2-4"
+    }
+  ]
+  
+}
